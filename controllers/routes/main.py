@@ -1,20 +1,6 @@
 from .atri import Atri
 from fastapi import Request, Response
 from atri_utils import *
-import json
-from sendgrid import SendGridAPIClient
-from sendgrid.helpers.mail import Mail
-
-
-def set_data(at: Atri, data):
-    for i in range(1, 6):
-        instance: at.Flex13.__class__ = getattr(at, f'Flex13{i}')
-        instance.styles.display = 'none'
-    for i in range(1, int(data['rating']) + 1):
-        instance: at.Flex13.__class__ = getattr(at, f'Flex13{i}')
-        instance.styles.display = 'flex'
-   
-
 
 def init_state(at: Atri):
     """

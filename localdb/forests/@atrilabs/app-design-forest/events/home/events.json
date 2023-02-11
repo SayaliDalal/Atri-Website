@@ -109701,5 +109701,15 @@
       }
     },
     "id": "6381b803-9fd1-403e-9c09-a5c0f29020ab"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/componentTree.js",
+    "slice": {
+      "parent": {
+        "id": "body",
+        "index": 3.5622742226114497
+      }
+    },
+    "id": "913bbf84-f36a-4e3a-913f-89928d671a79"
   }
 ]
